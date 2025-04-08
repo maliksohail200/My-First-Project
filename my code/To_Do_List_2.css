@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(gio.webp);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    display: flex;
+    height: 100vh;
+    width: 20%;
+    
+}
+.box1{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background: #cdccd1;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+}
+.box3{
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background: #cdccd1;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+}
+.box1-1{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-image: url(box11.jpg);
+    background-size: 30%;
+    margin-top: 10px;
+    margin-left: 49px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+box-shadow: 0px -4px 32px -1px rgba(0,0,0,0.49);
+}
+.AddNewInput{
+    height: 4vh;
+    width: 80%;
+    background: #9da7a4;
+    border-radius: 10px;
+    display: flex;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 15px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.AddNewInput:hover{
+    background: #6f7372;
+}
+.AddLastNewInput{
+    height: 4vh;
+    width: 80%;
+    background: #9da7a4;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.AddLastNewInput:hover{
+    background: #000;
+    color: white;
+}
+.h1{
+    display: flex;
+    font-weight: 700;
+    font-size: 23px;
+    margin-left: 43px;
+    text-decoration: underline;
+}
+.p{
+    font-weight: 200;
+    font-size: 12px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin-left: 16px;
+}
+.AddInputPlaceSize{
+    height: 30px;
+    width: 120px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #9da7a4;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.AddInputPlaceSave{
+    height: 20px;
+    width: 80px;
+    margin-left: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 6px;
+    background: black;
+    color: white;
+    
+}
+.Center{
+    display: flex;
+    height: 100vh;
+    width: 60%;
+    
+}
+.C-h1{
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Haettenschweiler;
+}
+.C-h3{
+   font-weight: 600;
+   text-decoration: underline;
+   font-size: 27px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 40px;
+    width: 80%;
+}
+.C-input:hover{
+    background: #000;
+}
+.C-input{
+    display: flex;
+    height: 60px;
+    border-radius: 40px;
+    width: 100%;
+    margin-left: 30px;
+    background: #cdccd1;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.inputSize:hover{
+    background: black;
+    color: white;
+}
+.inputSize{
+    display: flex;
+    height: 97%;
+    width: 85%;
+    margin-left: 27px;
+    
+    background: #cdccd1;
+    border: none;
+}
+.SaveButton{
+    border: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 50%;
+    color: white;
+    background: #9da7a4;
+}
+.SaveButton:hover{
+    background: white;
+    color: black;
+}
+.buttonSection{
+    display: flex;
+    height: 100px;
+    margin-left: 60px;
+    gap: 100px;
+}
+.ClearButtons{
+    display: flex;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.ClearButtons:hover{
+    background: #000;
+    color: white;
+}
+#tasksSection{
+    display: flex;
+    height: 300px;
+    overflow-y: auto;
+    width: 90%;
+    margin-left: 65px;
+}
+.CheckValue{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.AddNewInputActive{
+    background: black;
+    color: white;
+    height: 4vh;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 15px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+#tasksSection{
+    display: flex;
+    flex-direction: column;
+}
+.eachTask{
+    display: flex;
+    height: 40px;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80%;
+    background: #cdccd1;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.49);
+}
+.Rightside{
+    display: flex;
+    height: 100vh;
+    width: 20%;
+}

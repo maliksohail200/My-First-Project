@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+    <link rel="stylesheet" href="To_Do_List.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="leftSide">
+                <h1 class="h1">All Category</h1>
+                <div id="allCategories"></div>
+                <div id="inputDiv"></div>
+                <h5 id="h5" onclick="AddCatFun()">+ Add New Category</h5>
+            </div>
+            <div class="rightSide">
+                <h1 class="RSMainHeading">All Tasks</h1>
+                <div class="RSInput">
+                <input type="text" placeholder="+Add New Tasks" id="mainInputRs" onkeypress="OnKeyPressTaskInput(event)">
+                <button class="Rs-MainInputSaveButton" onclick="SaveTaskInDiv()" >Save</button>
+            </div>
+                <div id="CheckBoxes">
+                </div>
+                <div class="RSButtons">
+                    <div class="one">
+                    <input type="button" value="Clear All Tasks" class="ClearAllButton" onclick="ClearAllCatFun()">
+                    <div id="secondButton"><input type="button" value="Show All Complete Tasks" id="ButtonValue" class="AllCompleteButton" onclick="ShowAllTasksFun()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="To_Do_List.js"></script>
+</body>
+</html>
