@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #00ce29;
+    color: white;
+    background-image: url(technology-background-analog-clock-time-vector.jpg);
+    background-size: cover;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#clockBox{
+    display: flex;
+    background: #6fa4b49c;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    font-size: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 5px 5px 50px 31px rgba(0,0,0,1);
+-moz-box-shadow: 5px 5px 50px 31px rgba(0,0,0,1);
+box-shadow: 5px 5px 50px 31px rgba(0,0,0,1);
+}
+.h3{
+    font-size: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
