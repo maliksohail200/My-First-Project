@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+}
+.button1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: green;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button2{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: yellow;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button3{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: pink;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button4{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: gray;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button5{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button6{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: wheat;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button7{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.button8{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background: red;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.buttons:hover{
+    height: 52px;
+    width: 52px;
+}
